@@ -1,14 +1,21 @@
 .about-panel{
  display: flex; justify-content: center;
- margin-bottom: 2rem;
+ margin:0 30px 30px 2rem;
+
 }
 .head-welcome{
   text-align: center;
   font-family: 'Lato-Bold';
   font-size: 48px;
-  line-height: 58px;
   color: #ED553B;
 }
 .about-panel p {
   font-size: 18px; max-width: 600px; text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .head-welcome{
+    font-size: 28px;
+  }
 }
