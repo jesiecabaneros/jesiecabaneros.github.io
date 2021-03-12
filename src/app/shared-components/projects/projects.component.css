@@ -1,0 +1,24 @@
+.project-panel{
+  padding: 2rem 0;
+}
+.project-holder{
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-card{
+  background: linear-gradient(180.13deg, #F6D55C -2.69%, #ED553B 99.88%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 340px;
+  height: 285px;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 30px;
+  margin-right: 20px;
+}
+.head-title{
+  font-family: 'Lato-Bold';
+  font-size: 40px;
+  color: #173F5F;
+  margin: 1rem 0;
+}

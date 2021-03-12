@@ -1,0 +1,78 @@
+.dashboard-cont {
+  background: rgba(60, 174, 163, 0.69);
+  position: relative;
+  overflow: hidden;
+}
+.dashboard-cont::before{
+  content: '';
+  position: absolute;
+  width: 924.29px;
+  height: 871.01px;
+  right: -200px;
+  bottom:-210px;
+  background-image: url('../../../assets/img/blob-1.svg');
+}
+.dashboard-cont::after{
+  content: '';
+  position: absolute;
+  width: 700PX;
+  height: 611.64px;
+  right: 250px;
+  bottom:-100px;
+  z-index: 2;
+  background-image: url('../../../assets/img/blob2.svg');
+}
+
+.card{
+  z-index: 1;
+  position: absolute;
+  top: 200px;
+  padding: 17px 22px;
+  right: 24rem;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+}
+.card .wave {
+  font-size: 3.5rem;
+}
+.card .name {
+  margin-left:  1rem;
+}
+.card .name label {
+  font-size: 18px;
+}
+.card h4 {
+  margin: 0;
+  font-size: 4rem;
+  letter-spacing: .1rem;
+  font-family: 'Lato-Black';
+}
+
+.card.card-1 {
+  top: 21.3rem;
+  right: 22.4rem ;
+  z-index: 3;
+}
+.card.card-1 label{
+font-size: 1.5rem;
+}
+.desc-panel{
+  position: absolute;
+  bottom: 5rem; z-index: 4;
+}
+.desc-panel .sm-desc{
+  font-family: 'Lato-Regular';
+  font-size: 24px;
+  width: 621px;
+}
+.contact-btn{
+  width: 165px;
+  height: 51.84px;
+  background: #F6D55C;
+  border: none;
+  box-shadow: 0px 4px 4px #ED553B;
+  border-radius: 44.5px; font-size: 18px;
+}
