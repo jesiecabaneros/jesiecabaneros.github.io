@@ -73,7 +73,7 @@ font-size: 1.5rem;
 }
 .desc-panel{
   position: absolute;
-  bottom: 5rem; z-index: 4;
+  bottom: 3rem; z-index: 4;
 }
 .desc-panel .sm-desc{
   font-family: 'Lato-Regular';
@@ -87,6 +87,7 @@ font-size: 1.5rem;
   border: none;
   box-shadow: 0px 4px 4px #ED553B;
   border-radius: 44.5px; font-size: 18px;
+  margin: 3px 10px 0 0 ;
 }
 .jc{
   height: 48rem;
@@ -94,6 +95,10 @@ font-size: 1.5rem;
   position: absolute;
   left: -80px;
   transform: rotate(-22deg);
+}
+a{
+  text-decoration: none;
+  color: unset;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -103,7 +108,7 @@ font-size: 1.5rem;
     right: unset !important;
   }
   .card.card-1{
-    right: unset !important; 
+    right: unset !important;
   }
 
 }

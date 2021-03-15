@@ -13,7 +13,7 @@
   max-width: 340px;
   min-width: 254px;
   width: 22%;
-  height: 285px;
+  height: 222px;
   overflow: hidden;
   position: relative;
   padding: 10px 30px;
@@ -27,7 +27,14 @@
   margin: 1rem 0;
 }
 .proj-ss{
-  position: absolute; right: -130px; bottom: -30px; border-radius: 37px;
+  position: absolute; right: -130px; top: 78px; border-radius: 37px;
+}
+.icon-skills{
+  font-size: 4rem;
+}
+::ng-deep .iconify.icon-Tech path{
+  fill: #232323  !important;
+  font-size: 3rem;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -36,6 +43,6 @@
     width: 100%;
   }
   .proj-ss{
-    right: -170px; 
+    right: -170px;
   }
 }
