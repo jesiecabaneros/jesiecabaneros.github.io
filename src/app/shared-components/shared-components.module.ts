@@ -5,14 +5,15 @@ import { AboutComponent } from './about/about.component';
 import { SkillExpComponent } from './skill-exp/skill-exp.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { CompaniesComponent } from './companies/companies.component';
 
 
 
 @NgModule({
-  declarations: [DashboardComponent, AboutComponent, SkillExpComponent, FooterComponent, ProjectsComponent],
+  declarations: [DashboardComponent, AboutComponent, SkillExpComponent, FooterComponent, ProjectsComponent, CompaniesComponent],
   imports: [
     CommonModule
   ],
-  exports: [DashboardComponent, AboutComponent, SkillExpComponent, FooterComponent, ProjectsComponent ]
+  exports: [DashboardComponent, AboutComponent, SkillExpComponent, FooterComponent, ProjectsComponent , CompaniesComponent]
 })
 export class SharedComponentsModule { }
